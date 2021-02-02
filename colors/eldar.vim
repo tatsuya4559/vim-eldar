@@ -108,7 +108,7 @@ let  s:ColourAssignment['TabLineSel']   =  {'GUIFG':  'Black',     'GUIBG':  'Gr
 " File Navigation / Searching
 " ---------------------------
 let  s:ColourAssignment['Directory']  =  {'GUIFG':  s:blue,     'CTERMFG':  'Blue',    'GUI':      'Bold'}
-let  s:ColourAssignment['Search']     =  {'GUIFG':  'Black',    'GUIBG':    s:yellow,  'CTERMFG':  'yellow',  'CTERMBG':  'black',  'GUI':  'Bold',  'CTERM':  'Reverse,Bold'}
+let  s:ColourAssignment['Search']     =  {'GUIFG':  s:yellow,    'GUIBG':    'Black',  'CTERMFG':  'yellow',  'CTERMBG':  'black',  'GUI':  'Reverse,Bold',  'CTERM':  'Reverse,Bold'}
 let  s:ColourAssignment['IncSearch']  =  {'GUI':    'Reverse'}
 
 
